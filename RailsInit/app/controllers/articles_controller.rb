@@ -20,7 +20,7 @@ class ArticlesController < ApplicationController
 
   #POST /articles
   def create
-    @article = Article.new(title: params[:article][:title], body: params[:article][:body])
+    @article = Article.new(articles_param)
 
     if @article.save
       redirect_to @article
@@ -40,6 +40,10 @@ class ArticlesController < ApplicationController
 
   end
 
+  private
 
+  def articles_param
+    params.require(:article).permit(:title,:body)
+  end
 
 end
