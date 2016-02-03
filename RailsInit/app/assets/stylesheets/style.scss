@@ -3,16 +3,23 @@ html,body{
   font-family: ‘Rokkitt’;
 }
 .be-red{
-  background-color: black;
+
+  background-color: cornflowerblue;
 }
 .white{
   color: white;
+
+}
+.no-list{
+  list-style:none;
+  margin:0;
+  padding:0;
 }
 .large-padding{
   padding: 15px 2px;
 }
 a,a:visited{
-  color: inherit !important;
+
   text-decoration: none;
 }
 
@@ -28,4 +35,10 @@ a,a:visited{
   display: block;
   padding: 10px 0px;
   font-size: 1.2em;
+}
+.red{
+  color: red;
+}
+.edit {
+  color: green;
 }
