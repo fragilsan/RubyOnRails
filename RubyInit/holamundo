@@ -1,0 +1,20 @@
+
+
+
+class HolaMundo
+  def initialize()
+
+  end
+  def cadenas()
+    n = 20
+    cad = "ja" *n
+
+   print cad
+  end
+end
+
+
+objeto = HolaMundo.new()
+objeto.cadenas
+
+gets()
