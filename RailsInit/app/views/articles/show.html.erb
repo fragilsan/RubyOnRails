@@ -3,7 +3,13 @@
 <p>
   Escrito por <%= @article.user.email %>
 </p>
+
     <% end %>
+<p>
+  Número de visitas: <%= @article.visits_count %>
+</p>
+
+
 
 <div>
   <%= @article.body %>
