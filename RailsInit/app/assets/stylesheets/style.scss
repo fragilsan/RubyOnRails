@@ -25,6 +25,7 @@ a,a:visited{
 
 .field{
   margin-top:1em;
+  text-align: left;
 }
 
 .form-control{
@@ -41,4 +42,11 @@ a,a:visited{
 }
 .edit {
   color: green;
+}
+
+.text-left{
+  text-align: left;
+}
+.box{
+  text-align: left;
 }
